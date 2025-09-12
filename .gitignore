@@ -1,0 +1,68 @@
+# 環境設定ファイル
+.env
+.env.local
+.env.production
+
+# ログファイル
+logs/
+*.log
+
+# アップロードファイル
+uploads/
+tmp/
+
+# キャッシュファイル
+cache/
+*.cache
+
+# セッションファイル
+sessions/
+
+# バックアップファイル
+backup/
+*.backup
+*.bak
+
+# OS生成ファイル
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# エディタファイル
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 依存関係
+vendor/
+node_modules/
+
+# コンパイル済みファイル
+*.compiled
+
+# 開発用一時ファイル
+test_files/
+debug/
+
+# セキュリティファイル
+*.key
+*.pem
+*.p12
+*.pfx
+
+# データベースファイル
+*.sql.gz
+*.sql.bz2
+database_dump.sql
+
+# PHP関連
+composer.phar
+composer.lock
